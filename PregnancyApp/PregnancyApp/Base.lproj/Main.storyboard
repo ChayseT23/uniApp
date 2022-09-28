@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PregnancyApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pregnancy Tracker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2YR-1V-6db">
+                                <rect key="frame" x="113" y="75" width="281" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="aAk-Dn-8g2"/>
+                                    <constraint firstAttribute="width" constant="281" id="ry8-bn-Q8x"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Todays Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wJV-vN-50w">
+                                <rect key="frame" x="20" y="151" width="174" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="Ymi-h4-38e"/>
+                                    <constraint firstAttribute="width" constant="152" id="sow-dn-XL3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="image123" translatesAutoresizingMaskIntoConstraints="NO" id="pGK-E3-vZL">
+                                <rect key="frame" x="20" y="69" width="105" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="83" id="5Dl-OC-hdJ"/>
+                                    <constraint firstAttribute="width" constant="122" id="8kQ-Fe-LHW"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x1Q-4w-pQT">
+                                <rect key="frame" x="20" y="250" width="174" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Trimeter 1"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TMD-5g-xmd">
+                                <rect key="frame" x="20" y="306" width="174" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Trimester 2"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fw4-vB-R67">
+                                <rect key="frame" x="20" y="362" width="174" height="31"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Trimester 3"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trimesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CyK-6J-fFa">
+                                <rect key="frame" x="20" y="475" width="174" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="JUg-JV-o8b"/>
+                                    <constraint firstAttribute="width" constant="174" id="ZsA-gB-JAM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="wJV-vN-50w" firstAttribute="top" secondItem="pGK-E3-vZL" secondAttribute="bottom" constant="6" id="1fX-eh-ECC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2YR-1V-6db" secondAttribute="trailing" constant="20" id="2bH-qe-0ap"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pGK-E3-vZL" secondAttribute="trailing" constant="292" id="5VF-x9-9uF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CyK-6J-fFa" secondAttribute="trailing" constant="220" id="Cge-IM-WOi"/>
+                            <constraint firstItem="pGK-E3-vZL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Rn2-xC-F3R"/>
+                            <constraint firstItem="pGK-E3-vZL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="18" id="SyJ-oe-1RC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wJV-vN-50w" secondAttribute="trailing" constant="242" id="cN5-F6-D17"/>
+                            <constraint firstItem="CyK-6J-fFa" firstAttribute="top" secondItem="Fw4-vB-R67" secondAttribute="bottom" constant="82" id="d9e-rH-gD7"/>
+                            <constraint firstItem="2YR-1V-6db" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="113" id="iyj-1j-tPf"/>
+                            <constraint firstItem="wJV-vN-50w" firstAttribute="top" secondItem="pGK-E3-vZL" secondAttribute="bottom" constant="6" id="laJ-Mt-QmM"/>
+                            <constraint firstItem="CyK-6J-fFa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="mTa-Ps-MmQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CyK-6J-fFa" secondAttribute="bottom" constant="345" id="oaQ-iR-ZOx"/>
+                            <constraint firstItem="wJV-vN-50w" firstAttribute="top" secondItem="2YR-1V-6db" secondAttribute="bottom" constant="34" id="sRn-2f-iUA"/>
+                            <constraint firstItem="wJV-vN-50w" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="w54-OD-aUI"/>
+                            <constraint firstItem="2YR-1V-6db" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="31" id="yTs-dn-crM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pregnancyHeading" destination="2YR-1V-6db" id="d3a-lJ-FTg"/>
+                        <outlet property="todaysDate" destination="wJV-vN-50w" id="aCI-LJ-dAP"/>
+                        <outlet property="trimestersLabel" destination="CyK-6J-fFa" id="tu0-EQ-qfC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28.985507246376812" y="68.973214285714278"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="image123" width="343" height="320"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
